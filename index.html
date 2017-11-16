@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+
+
+        <link rel="apple-touch-icon" href="custom_icon.png">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PubPal Prototype</title>
+    </head>
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Montserrat:400,700|Lora:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/stack.css?v=4"/>
+    <link rel="stylesheet" href="css/animate.css?v=4"/>
+
+
+    <body>
+
+    <h1 class="app-heading animated fadeInDown">PubPal <img class="emoji" src="images/emojis/ball.png"/><img class="emoji" src="images/emojis/beer.png"/> </h1>
+
+    <div id="screen1" class="animated">
+        <a href="javascript:void(0);" class="btn animated fadeInLeft"><img src="images/button1.png"/></a>
+        <a href="javascript:void(0);" class="btn animated fadeInLeft"><img src="images/button2.png"/></a>
+    </div>
+
+
+    <div id="screen2" class="animated fadeInRight">
+
+    <!-- General Stack Markup -->
+    <section class="stack-container " id="bestmoments">
+    <h2 class="heading"><span>Overview</span><img class="emoji" src="images/emojis/ball.png"/></h2>
+
+    <div class="stack" id="stack1">
+
+        <div class="end-of-stack"><!--This sits underneath other cards--></div>
+
+        <div class="card bottom" data-speech="Adrien Rabiot and Zlatan Ibrahimovic scored for Paris">
+            <!--Your card content --->
+            <img src="images/Rabiot_Zlatan.png"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card" data-speech="Diego Costa scored Chel sees only goal">
+            <!--Your card content --->
+            <img src="images/Diego_Costa.png"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card" data-speech="">
+            <!-- Your card content -->
+            <img src="images/score.png"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+
+    </div><!-- End of stacks -->
+
+    </section>
+
+
+    <section class="stack-container" id="reactions">
+        <h2 class="heading"><span>Reactions</span><img class="emoji" src="images/emojis/shock.png"/></h2>
+
+    <div class="stack" id="stack2" data-stack-id="2">
+
+        <div class="end-of-stack"><!--This sits underneath other cards--></div>
+
+        <div class="card bottom" data-speech="Most people were not happy about the result">
+            <img src="images/sentiment.jpg"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card" data-speech="Pastore was the most unpopular player">
+            <!--Your card content --->
+            <img src="images/Opinions_Unpopular_New.png"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card" data-speech="Canavi was the most talked about player">
+            <!--Your card content --->
+            <img src="images/Reactions_TalkedAbout.png"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card" data-speech="Falcoa was the most popular Player">
+            <!--Your card content --->
+            <img src="images/Reactions_Popular.png"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+
+
+    </div><!-- End of stacks -->
+
+    </section>
+
+
+
+    <section class="stack-container" id="opinions">
+        <h2 class="heading"><span>Opinions</span> <img class="emoji" src="images/emojis/thumb.png"/></h2>
+
+    <div class="stack" id="stack3" data-stack-id="3">
+
+        <div class="end-of-stack"><!--This sits underneath other cards--></div>
+
+        <div class="card bottom">
+            <!--Your card content --->
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Congrats <a href="https://twitter.com/JohnBerman">@JohnBerman</a> on PSG win. Hope you get knocked out next round! hehe. :p  <a href="https://twitter.com/hashtag/KTBFFH?src=hash">#KTBFFH</a> <a href="https://twitter.com/hashtag/UCL?src=hash">#UCL</a> <a href="https://twitter.com/hashtag/CHEvPSG?src=hash">#CHEvPSG</a></p>&mdash; Drogon (@drogon_dracarys) <a href="https://twitter.com/drogon_dracarys/status/707688210080538624">March 9, 2016</a></blockquote>
+            <!--End your card content -->
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+
+        <div class="card">
+            <!--Your card content --->
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Chelsea were completely &quot;Zlataned&quot; last night <a href="https://twitter.com/hashtag/CHEvPSG?src=hash">#CHEvPSG</a> cc <a href="https://twitter.com/Officialgyrl_">@Officialgyrl_</a> <a href="https://twitter.com/MrsGiroud">@MrsGiroud</a> <a href="https://twitter.com/haywhai007">@haywhai007</a></p>&mdash; MacMania (@JusMacmania) <a href="https://twitter.com/JusMacmania/status/707814259904872449">March 10, 2016</a></blockquote>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card">
+            <!--Your card content --->
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/PSG?src=hash">#PSG</a> running riot down <a href="https://twitter.com/hashtag/chelsea?src=hash">#chelsea</a> &#39;s right side all night , Scored 2 and created loads , Azpilicueta having a Mare of a game <a href="https://twitter.com/hashtag/CHEvPSG?src=hash">#CHEvPSG</a></p>&mdash; Alan Clark (@Alan_Clark77) <a href="https://twitter.com/Alan_Clark77/status/707678199442972672">March 9, 2016</a></blockquote>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+        <div class="card" data-speech="There were 78 thousand and 94 tweets during the match">
+            <!--Your card content --->
+            <img src="images/Twitter_people.gif"/>
+            <div class="cover"><!--This is the swipeable part--></div>
+        </div>
+
+    </div><!-- End of stacks -->
+
+
+    </section>
+
+
+    <section class="stack-container" id="didyouknow">
+        <h2 class="heading"><span>Did you know</span> <img class="emoji" src="images/emojis/smile.png"/></h2>
+
+        <div class="stack" id="stack4" data-stack-id="4">
+
+            <div class="end-of-stack"><!--This sits underneath other cards--></div>
+
+            <div class="card bottom" data-speech="57% of Champions League goals are scored in the second half">
+                <!--Your card content --->
+                <img src="images/Facts_Goal.png"/>
+                <div class="cover"><!--This is the swipeable part--></div>
+            </div>
+            <div class="card" data-speech="Most Goals were scored with players right feed">
+                <!--Your card content --->
+                <img src="images/Facts_Feet.png"/>
+                <div class="cover"><!--This is the swipeable part--></div>
+            </div>
+
+        </div><!-- End of stacks -->
+
+
+    </section>
+
+
+
+    <section class="stack-container" id="whathappensnext">
+        <h2 class="heading"><span>What next?</span><img class="emoji" src="images/emojis/single-beer.png"/></h2>
+
+        <div class="stack" id="stack5" data-stack-id="5">
+
+            <div class="end-of-stack"><!--This sits underneath other cards--></div>
+
+            <div class="card bottom" data-speech="Paris play Man City in the Quarter Final">
+                <!--Your card content --->
+                <img src="images/PSG_ManCity.jpg"/>
+                <!--End your card content -->
+                <div class="cover"><!--This is the swipeable part--></div>
+            </div>
+
+
+        </div><!-- End of stacks -->
+
+
+    </section>
+
+
+    </div><!-- end screen 2-->
+
+
+    <section class="padder"></section>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/hammer.js"></script>
+    <script type="text/javascript" src="js/stack.js?v=4"></script>
+    <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script>
+
+        $( document ).ready(function() {
+
+            $('.btn').click(function() {
+
+                $('#screen1').hide(400, function() {
+
+                    $('#screen2').show();
+                    //read first slide
+                    speak("Paris beat Chel sea. two one at Stam ford Bridge");
+
+                });
+
+                //Create swipable stacks
+                prepareForTouches("stack1");
+                prepareForTouches("stack2");
+                prepareForTouches("stack3");
+                prepareForTouches("stack4");
+                prepareForTouches("stack5");
+
+            });
+
+
+        });
+    </script>
+
+
+    </body>
+</html>

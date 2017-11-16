@@ -1,0 +1,123 @@
+body{
+  background: #19bad5;
+  font-family: "Montserrat",sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#bestmoments{
+  background: linear-gradient(to right bottom, #19bad5 50%, #39ac6a 50%);
+  h2{
+    margin-top: 0;
+  }
+}
+#reactions {
+  background: linear-gradient(to right bottom, #39ac6a 50%, #ffa82d 50%);
+}
+#opinions {
+  background: linear-gradient(to right bottom, #ffa82d 50%, #19bad5 50%);
+}
+#didyouknow {
+  background: linear-gradient(to right bottom, #19bad5 50%, #39ac6a 50%);
+}
+#whathappensnext {
+  background: linear-gradient(to right bottom, #39ac6a 50%, #19bad5 50%);
+}
+
+
+.emoji{
+  width: 40px;
+}
+
+#screen1{
+  a{
+    display: block;
+    width: 320px;
+    margin: 1rem auto;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+#screen2{
+  display: none;
+}
+
+.app-heading{
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+
+.stack-container{
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  clear: both;
+  h2{
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    .emoji{
+      position: absolute;
+      margin-left: 5px;
+      width: 30px;
+    }
+  }
+}
+
+.stack{
+  display: block;
+  position: relative;
+  width: 310px;
+  height: 310px;
+  margin: 1rem auto;
+  cursor: pointer;
+  overflow: hidden;
+  .card{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    background-color: #e54766;
+    border: 5px solid #e54766;
+    img{
+      width: 300px;
+      height: 300px;
+    }
+    .cover{
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      top:0;
+      left: 0;
+      display: inline-block;
+      //background: red;
+      opacity: 0.8;
+    }
+    .twitter-tweet{
+      margin-top: 2rem!important;
+    }
+  }
+  .end-of-stack{
+    position: absolute;
+    background: red;
+    color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: url("../images/NoMoreCards2.png");
+    background-size: cover ;
+  }
+}
+
+
+.padder{
+  display: block;
+  height: 300px;
+}
