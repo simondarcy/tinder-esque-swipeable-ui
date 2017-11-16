@@ -2,7 +2,7 @@ Tinder-esque swipeable UI
 
 PubPal is a prototype built as part of a hack day
 
-The concept is a mobile app which aims to help non football fans bluff a conversations about 'last nights game' by outputting them quick phrases and key stats  
+The concept is a mobile app which aims to help non football fans bluff a conversations about 'last nights game' by outputting quick phrases and key stats  
 
 http://www.rte.ie/generic/ebu7/
 
